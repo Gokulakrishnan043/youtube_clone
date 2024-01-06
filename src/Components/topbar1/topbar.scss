@@ -1,0 +1,88 @@
+/* topbar.scss */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins';
+    
+  }
+  
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding: 10px 30px; 
+    border-radius: 10px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    // color: rgb(255, 0, 0);
+    font-size: 1.5rem;
+    
+    cursor:pointer  !important;
+  }
+  
+  .empty {
+    display: flex;
+    align-items: center;
+  }
+  
+  .type {
+    align-items: center;
+    display: flex;
+    width: 250px;
+  }
+  .type input {
+    width: 25rem;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    background-color: lightcoral;
+  }
+  
+
+  
+  .profilepic {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;  
+    justify-content: space-between;
+    cursor: pointer !important;
+}
+  
+ 
+  .profilepic img {
+    width: 30px; 
+    height: 30px;   
+      margin-left: 10px;
+      border-radius: 30px; 
+  }
+  .search_area {
+  width: 25rem;
+
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.search_icon {
+  border-radius: 180px;
+}
+  .right_icon {
+  cursor: pointer;
+  position: relative;
+  .p_icon {
+    font-size: 1.3rem;
+    color: #000;
+  }
+}
+.social{
+  display: flex;
+    align-items: center;
+}
+.seaarch{
+  display: flex;
+  align-items: center;
+}
