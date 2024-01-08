@@ -19,6 +19,9 @@ const Content = () => {
    <Button type="submit">JK Tamil</Button>
    <Button type="submit">VJ sidhu</Button>
    <Button type="submit">Yuan</Button>
+   <Button type="submit">MCU</Button>
+   <Button type="submit">Iron man</Button>
+ 
  </div>
    <Container>
        <Row>
@@ -26,14 +29,14 @@ const Content = () => {
            return (
              <>
                <Col xl={3} key={item.id}>
-                 <div className="video_card my-2">
+                 <div className="video_card  my-3">
                    <Card>
                      <Card.Img variant="top" src={item.imgSrc} />
                      <Card.Body>
-                       <Card.Title>{item.title}</Card.Title>
-                       <Card.Text>{item.channelName}</Card.Text>
-                       <Card.Text>{item.views}</Card.Text>
-                       <Card.Text>{item.times}</Card.Text>
+                       <Card.Title className="text-center">{item.title}</Card.Title>
+                       <Card.Text className="hello">{item.channelName}</Card.Text>
+                       <Card.Text className="hello">{item.views} . {item.times}</Card.Text>
+                       
                      </Card.Body>
                    </Card>
                  </div>

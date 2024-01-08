@@ -6,37 +6,37 @@ import { MdSubscriptions } from "react-icons/md";
 
 // sidebar content
 export const sidebarFistContent = [
-  { id: 2, icon: <GoHomeFill />, text: "Home" },
-  { id: 2, icon: <SiYoutubeshorts />, text: "Shorts" },
-  { id: 3, icon: <MdSubscriptions />, text: "Subscription" },
+  { id: 2, icon: <GoHomeFill />, text: "Home", url:"/" },
+  { id: 2, icon: <SiYoutubeshorts />, text: "Shorts" , url:"/shorts" },
+  { id: 3, icon: <MdSubscriptions />, text: "Subscription",url:"/Subscription" },
 ];
 
 export const mainVideosContent = [
   {
     id: 1,
     imgSrc:
-      "https://plus.unsplash.com/premium_photo-1673383156708-7034f48990da?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Discover YouTube's video content creation strategy ",
-    channelName: "Codevaluation",
-    views: "77k",
-    times: "3h ago",
+      "https://i.ytimg.com/vi/b093aqAZiPU/maxresdefault.jpg",
+    title: "Learn Python from Scratch ",
+    channelName: "Code Easy",
+    views: "123k views",
+    times: "1 year ago",
   },
 
   {
     id: 2,
     imgSrc:
-      "https://images.unsplash.com/photo-1459184070881-58235578f004?q=80&w=1732&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Are you want to learn YouTube's video content creation strategy ",
-    channelName: "Saregamapa",
-    views: "54k",
-    times: "10h ago",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOyGdi6aS3qrKOLeinC3dibAQolwjXQqsaFA&usqp=CAU",
+    title: "Inida vs England 3rd ODI  Highlights ",
+    channelName: "Cric viedos",
+    views: "256k views",
+    times: "10 months Ago",
   },
 
   {
     id: 3,
     imgSrc:
       "https://images.unsplash.com/photo-1497015455546-1da71faf8d06?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Video content creation strategy – YouTube Creators ",
+    title: "Video creation strategy  YouTube Creators ",
     channelName: "Chennai Express",
     views: "77k",
     times: "3h ago",
@@ -46,7 +46,7 @@ export const mainVideosContent = [
     id: 4,
     imgSrc:
       "https://plus.unsplash.com/premium_photo-1682003062629-42754b7da3b3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "12 Best Types of YouTube Content To Succeed at Growing",
+    title: "12 Best Types of YouTube Content To Succeed ",
     channelName: "MetaWebix",
     views: "70k",
     times: "4h ago",

@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+import { useEffect, useState } from "react";
 import React from "react";
 import { FiVideo, FiSearch,  FiBell } from "react-icons/fi";
 import { Nav , Container, Form, Row, Col, Image } from "react-bootstrap";
@@ -6,6 +7,24 @@ import { FaYoutube } from "react-icons/fa";
 import "./topbar.scss";
 
 const Topbar = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <Container fluid>
       <div className="topbar">
@@ -27,7 +46,7 @@ const Topbar = () => {
                 style={{  padding: '10px 250px 10px 10px'  }} 
               />
               <span>
-                <FiSearch className="text-black" style={{cursor:"pointer", backgroundColor:"gray", padding:"6px 20px" ,marginLeft:"1rem", borderRadius:"10px"}}/>
+                <FiSearch className="text-black" style={{cursor:"pointer",fontSize: '24px',marginLeft:"1rem", borderRadius:"10px"}}/>
 
               </span>
             </div>

@@ -1,23 +1,39 @@
 
 .first {
-  overflow: hidden;
-  height: 100%;
-  width: 15%;
-  background-color: #ffa6a6;
+  overflow-y: auto;
+  height: 100vh;
+  width: 18vw;
+  background-color: rgb(238, 238, 238);
   cursor: pointer  !important;
-
+  padding-left: 1rem;
+ font-size:18px ;
   .first_menu {
-    font-weight: 500;
+   
     
     margin-top: 1rem;
   }
 }
+
+.first_menu:hover{
+  background-color: rgb(222, 82, 82);
+  border-radius: 10px;
+  padding:1px 0px 1px 6px ;
+  
+}
 .micons {
   margin-top: 1rem;
+  cursor: pointer;
+  margin-left:.8rem ;
+
+}
+.micons:hover {
+background-color: rgb(222, 82, 82);
+border-radius: 10px;
+padding:1px 0px 1px 6px ;
 }
 
 span{
   padding-right:.2rem;
 
-  padding-left: 1.2rem;
+  padding-left: 1.0rem;
 }

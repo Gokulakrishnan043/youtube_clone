@@ -8,10 +8,10 @@
   
   .topbar {
     display: flex;
-    justify-content: space-between;
-    background-color: lightgray;
-    padding: 10px 30px; 
-    border-radius: 10px;
+        // background-color: lightgray;
+    padding:  10px; 
+    // border-radius: 10px;
+    
   }
   
   .logo {
@@ -19,14 +19,11 @@
     align-items: center;
     // color: rgb(255, 0, 0);
     font-size: 1.5rem;
-    
+    margin-left: 1rem;
     cursor:pointer  !important;
   }
   
-  .empty {
-    display: flex;
-    align-items: center;
-  }
+ 
   
   .type {
     align-items: center;
@@ -43,21 +40,6 @@
   
 
   
-  .profilepic {
-    display: flex;
-    align-items: center;
-    font-size: 1.5rem;  
-    justify-content: space-between;
-    cursor: pointer !important;
-}
-  
- 
-  .profilepic img {
-    width: 30px; 
-    height: 30px;   
-      margin-left: 10px;
-      border-radius: 30px; 
-  }
   .search_area {
   width: 25rem;
 
@@ -67,17 +49,8 @@
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
 }
-.search_icon {
-  border-radius: 180px;
-}
-  .right_icon {
-  cursor: pointer;
-  position: relative;
-  .p_icon {
-    font-size: 1.3rem;
-    color: #000;
-  }
-}
+
+ 
 .social{
   display: flex;
     align-items: center;
